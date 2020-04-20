@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homepageFragment">
+
+    <fragment
+        android:id="@+id/homepageFragment"
+        android:name="com.example.xyytwo.homepageFragment"
+        android:label="首页"
+        tools:layout="@layout/homepage_fragment" />
+    <fragment
+        android:id="@+id/myDataFragment"
+        android:name="com.example.xyytwo.myDataFragment"
+        android:label="我的"
+        tools:layout="@layout/my_data_fragment" />
+    <fragment
+        android:id="@+id/myOrderFragment"
+        android:name="com.example.xyytwo.myOrderFragment"
+        android:label="订单"
+        tools:layout="@layout/my_order_fragment" />
+</navigation>

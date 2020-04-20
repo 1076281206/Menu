@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">xyytwo</string>
+    <string name="homepage">首页</string>
+    <string name="myorder">订单</string>
+    <string name="mydata">我的</string>
+    <string name="buy">buy</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homepageFragment"
+        android:icon="@android:drawable/btn_radio"
+        android:title="@string/homepage" />
+    <item
+        android:id="@+id/myorderFragment"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="@string/myorder" />
+    <item
+        android:id="@+id/mydataFragment"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/mydata" />
+</menu>
